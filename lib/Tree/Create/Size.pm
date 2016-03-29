@@ -36,7 +36,7 @@ children's children. And so on.
 
 _
         },
-        children => {
+        num_children => {
             summary => 'Number of children for each node',
             schema => ['int*', min=>1],
         },
