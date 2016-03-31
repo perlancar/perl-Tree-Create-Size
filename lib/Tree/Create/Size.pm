@@ -173,7 +173,7 @@ sub create_tree {
      # ... or specify num_nodes_per_level, e.g.
      num_nodes_per_level => [100, 3000, 5000, 8000, 3000, 1000, 300],
 
-     class => ['MyNode'],
+     class => 'MyNode',
      # optional
      #code_create_node => sub {
      #    my ($class, $level, $parent) = @_;
